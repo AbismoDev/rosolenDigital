@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  /* Fontes Personalizadas */
+  --fonte-titulos: "Poppins", sans-serif;
+  --font-texto: "Roboto", sans-serif;
+
+  /* Tipografia */
+  --tamanho-texto-btn-projetos: 16px;
+  --tamanho-texto-btn-header: 20px;
+  --tamanho-texto-btn-hero: 12px;
+  --tamanho-texto-creditos: 12px;
+  --tamanho-titulo-card: 24px;
+  --tamanho-subtitulo: 26px;
+  --tamanho-titulo: 32px;
+  --tamanho-texto-card: 16px;
+  --tamanho-texto-hero: 16px;
+  --tamanho-texto-sobre: 16px;
+  --tamanho-texto: 16px;
+
+  /* Paleta de Cores */
+  --cor-destaque-bg-botao: rgba(139, 92, 246, 0.05);
+  --cor-borda-botao: rgba(139, 92, 246, 0.1);
+  --cor-fundo-card-sobre: rgba(139, 92, 246, 0.15);
+  --cor-fundo-card-solucoes: #1e293b;
+  --cor-fundo-card-projetos: #0a1020;
+  --cor-fundo-bg: #0f172a;
+  --cor-destaque: #8b5cf6;
+  --cor-texto: #f8fafc;
+
+  /* Icones */
+  --tamanho-icones-tecnologias: 46px;
+  --tamanho-icones-solucoes: 96px;
+  --tamanho-icones-rodape: 32px;
+  --tamanho-icones-menu: 36px;
+  --tamanho-logo: 151px;
+
+  /* Sombreamento */
+  --sombra-elemento: 0 4px 30px 0 rgba(0, 0, 0, 0.1);
+  --sombra-card: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--cor-fundo-bg);
+}
+
+p,
+span,
+a,
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 300;
+  color: var(--cor-texto);
+}
+
+p,
+span,
+a {
+  font-family: var(--font-texto);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--fonte-titulos);
+}
+
+a {
+  text-decoration: none;
+  color: var(--cor-texto);
+}
+
+.container {
+  max-width: 1024px;
+  padding: 0 20px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.texto-destaque-cor {
+  color: var(--cor-destaque) !important;
+}
+
+.texto-destaque {
+  font-weight: 500;
+}
+
+.texto-destaque-titulo {
+  font-weight: 900;
+}
+
+.texto-destaque-estilo-italic {
+  font-style: italic;
+}
+
+@media (min-width: 768px) {
+  :root {
+    /* Tipografia */
+    --tamanho-texto-btn-hero: 16px;
+    --tamanho-texto-creditos: 16px;
+    --tamanho-titulo-card: 26px;
+    --tamanho-subtitulo: 28px;
+    --tamanho-titulo: 42px;
+    --tamanho-texto-card: 18px;
+    --tamanho-texto-hero: 18px;
+    --tamanho-texto-sobre: 18px;
+    --tamanho-texto: 18px;
+
+    /* Icones */
+    --tamanho-icones-tecnologias: 64px;
+    --tamanho-icones-rodape: 38px;
+    --tamanho-icones-menu: 36px;
+    --tamanho-logo: 180px;
+  }
+}
+
+@media (min-width: 1024px) {
+  :root {
+    /* Tipografia */
+    --tamanho-texto-btn-projetos: 16px;
+    --tamanho-texto-btn-header: 20px;
+    --tamanho-texto-btn-hero: 24px;
+    --tamanho-texto-creditos: 20px;
+    --tamanho-titulo-card: 36px;
+    --tamanho-subtitulo: 64px;
+    --tamanho-titulo: 96px;
+    --tamanho-texto-card: 24px;
+    --tamanho-texto-hero: 32px;
+    --tamanho-texto-sobre: 40px;
+    --tamanho-texto: 18px;
+
+    /* Icones */
+    --tamanho-icones-tecnologias: 148px;
+    --tamanho-icones-solucoes: 148px;
+    --tamanho-icones-rodape: 48px;
+    --tamanho-logo: 302px;
+
+    --sombra-card-hover: 0 0 6px 6px rgba(139, 92, 246, 0.25);
+  }
+
+  .container {
+    max-width: 1440px;
+  }
+}

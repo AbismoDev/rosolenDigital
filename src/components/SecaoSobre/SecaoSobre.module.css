@@ -1,0 +1,65 @@
+.secao {
+  padding-bottom: 120px;
+  padding-top: 120px;
+}
+
+.containerSobre {
+  background-color: var(--cor-fundo-card-sobre);
+  border: 8px solid var(--cor-borda-botao);
+  box-shadow: var(--sombra-elemento);
+  border-radius: 12px;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 30px;
+  width: 100%;
+}
+
+.containerConteudo {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  gap: 40px;
+}
+
+.containerConteudo h2 {
+  font-size: var(--tamanho-subtitulo);
+  text-shadow: var(--sombra-card);
+  text-align: center;
+  line-height: 30px;
+}
+
+.containerConteudo p {
+  font-size: var(--tamanho-texto-sobre);
+  text-align: justify;
+}
+
+.containerIcones {
+  justify-content: center;
+  flex-wrap: wrap;
+  display: flex;
+  width: 100%;
+  gap: 30px;
+}
+
+.iconTec {
+  width: var(--tamanho-icones-tecnologias);
+}
+
+@media (min-width: 1024px) {
+  .containerSobre {
+    padding: 60px;
+  }
+
+  .containerConteudo h2 {
+    line-height: 60px;
+  }
+
+  .containerConteudo {
+    gap: 60px;
+  }
+
+  .containerIcones {
+    margin-top: 40px;
+    gap: 20px;
+  }
+}

@@ -1,0 +1,15 @@
+.botao {
+  background-color: var(--cor-destaque-bg-botao);
+  border: 2px solid var(--cor-borda-botao);
+  box-shadow: var(--sombra-elemento);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  padding: 10px 25px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.botao:hover {
+  transform: scale(0.955);
+}

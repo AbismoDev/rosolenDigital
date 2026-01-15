@@ -1,0 +1,46 @@
+.containerRodape {
+  background-color: var(--cor-fundo-card-projetos);
+  border-top: 1px solid var(--cor-destaque);
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+.rodape {
+  flex-direction: column;
+  display: flex;
+  gap: 25px;
+}
+
+.containerContent {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.logo {
+  width: var(--tamanho-logo);
+}
+
+.containerIcons {
+  display: flex;
+  gap: 20px;
+}
+
+.iconSocial {
+  width: var(--tamanho-icones-rodape);
+  transition: 0.3s;
+}
+
+.containerCreditos {
+  text-align: center;
+}
+
+.containerCreditos p {
+  font-size: var(--tamanho-texto-creditos);
+}
+
+@media (min-width: 1024px) {
+  .iconSocial:hover {
+    transform: scale(0.95);
+  }
+}

@@ -1,0 +1,35 @@
+.containerCards {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  gap: 55px;
+}
+
+.containerSecao {
+  flex-direction: column;
+  padding-bottom: 90px;
+  align-items: center;
+  padding-top: 90px;
+  display: flex;
+  gap: 80px;
+}
+
+.containerTitulo {
+  text-align: center;
+}
+
+.containerTitulo h2 {
+  font-size: var(--tamanho-subtitulo);
+  font-weight: 500;
+}
+
+@media (min-width: 1024px) {
+  .containerCards {
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 40px;
+  }
+}
