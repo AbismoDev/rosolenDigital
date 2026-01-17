@@ -56,9 +56,9 @@ const Cabecalho = () => {
             <li>
               <a href="#solucoes">SOLUÇÕES</a>
             </li>
-            <li>
+            {/* <li>
               <a href="#projetos">PROJETOS</a>
-            </li>
+            </li> */}
           </ul>
           <Botao texto={cabecalho.botao.texto} link={cabecalho.botao.link} />
         </nav>

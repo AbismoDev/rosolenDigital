@@ -29,7 +29,7 @@ export const cabecalho = {
   links: [
     { id: 1, texto: "ÍNICIO", link: "#inicio" },
     { id: 2, texto: "SOLUÇÕES", link: "#solucoes" },
-    { id: 3, texto: "PROJETOS", link: "#projetos" },
+    // { id: 3, texto: "PROJETOS", link: "#projetos" },
   ],
   botao: {
     texto: "Falar no WhatsApp",
