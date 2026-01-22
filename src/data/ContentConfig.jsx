@@ -21,6 +21,7 @@ import iconSEO from "../assets/icons/tecnologia/icon-seo.svg";
 import iconGitHub from "../assets/icons/redes-sociais/icon-github.svg";
 import iconLinkedin from "../assets/icons/redes-sociais/icon-linkedin.svg";
 import iconWhatsapp from "../assets/icons/redes-sociais/icon-whatsapp.svg";
+import iconWhatsappBtn from "../assets/icons/redes-sociais/icon-whatsapp-btn.svg";
 
 export const cabecalho = {
   logo: logo,
@@ -34,6 +35,8 @@ export const cabecalho = {
   botao: {
     texto: "Falar no WhatsApp",
     link: "https://wa.me/5532987052409?text=Opa%20Wellington!%20Vi%20seu%20site%20e%20quero%20levar%20meu%20neg%C3%B3cio%20para%20o%20pr%C3%B3ximo%20n%C3%ADvel.%20Podemos%20conversar%3F%20%F0%9F%9A%80",
+    icon: iconWhatsappBtn,
+    classe: "iconBtn",
   },
 };
 
@@ -60,6 +63,8 @@ export const hero = {
   botao: {
     texto: "Quero meu orçamento",
     link: "https://wa.me/5532987052409?text=Opa%20Wellington!%20Vi%20seu%20site%20e%20quero%20levar%20meu%20neg%C3%B3cio%20para%20o%20pr%C3%B3ximo%20n%C3%ADvel.%20Podemos%20conversar%3F%20%F0%9F%9A%80",
+    icon: iconWhatsappBtn,
+    classe: "iconeBtnHero",
   },
 };
 

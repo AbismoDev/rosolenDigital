@@ -33,7 +33,12 @@ const ModalMenu = ({ toggleMenu, dados }) => {
               </li>
             ))}
           </ul>
-          <Botao texto={dados.botao.texto} link={dados.botao.link} />
+          <Botao
+            texto={dados.botao.texto}
+            link={dados.botao.link}
+            icon={dados.botao.icon}
+            classe={dados.botao.classe}
+          />
         </nav>
       </main>
     </div>

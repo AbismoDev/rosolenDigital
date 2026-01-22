@@ -8,6 +8,9 @@
   padding: 10px 25px;
   transition: 0.3s;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
 .botao:hover {

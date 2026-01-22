@@ -32,6 +32,8 @@
   --tamanho-icones-rodape: 32px;
   --tamanho-icones-menu: 36px;
   --tamanho-logo: 151px;
+  --tamanho-icone-whatsapp-btn: 24px;
+  --tamanho-icone-whatsapp-btn-hero: 18px;
 
   /* Sombreamento */
   --sombra-elemento: 0 4px 30px 0 rgba(0, 0, 0, 0.1);
@@ -104,6 +106,14 @@ a {
   font-style: italic;
 }
 
+.iconBtn {
+  width: var(--tamanho-icone-whatsapp-btn);
+}
+
+.iconeBtnHero {
+  width: var(--tamanho-icone-whatsapp-btn-hero);
+}
+
 @media (min-width: 768px) {
   :root {
     /* Tipografia */
@@ -139,6 +149,8 @@ a {
     --tamanho-texto-hero: 28px;
     --tamanho-texto-sobre: 26px;
     --tamanho-texto: 18px;
+    --tamanho-icone-whatsapp-btn: 20px;
+    --tamanho-icone-whatsapp-btn-hero: 24px;
 
     /* Icones */
     --tamanho-icones-tecnologias: 100px;

@@ -14,7 +14,12 @@ const SecaoHero = () => {
           <h1>{hero.titulo}</h1>
           <p>{hero.texto}</p>
         </div>
-        <Botao texto={hero.botao.texto} link={hero.botao.link} />
+        <Botao
+          texto={hero.botao.texto}
+          link={hero.botao.link}
+          icon={hero.botao.icon}
+          classe={hero.botao.classe}
+        />
       </div>
     </section>
   );

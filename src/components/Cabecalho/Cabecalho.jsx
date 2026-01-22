@@ -60,7 +60,12 @@ const Cabecalho = () => {
               <a href="#projetos">PROJETOS</a>
             </li> */}
           </ul>
-          <Botao texto={cabecalho.botao.texto} link={cabecalho.botao.link} />
+          <Botao
+            texto={cabecalho.botao.texto}
+            link={cabecalho.botao.link}
+            icon={cabecalho.botao.icon}
+            classe={cabecalho.botao.classe}
+          />
         </nav>
       </div>
     </header>
