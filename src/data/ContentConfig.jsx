@@ -1,6 +1,10 @@
 // Logo do site
 import logo from "../assets/icons/logo/logo.svg";
 
+// Imagens dos Projetos
+import imgKubicoStore from "../assets/img/screenshot-kubico-store.webp";
+import imgPropaganda from "../assets/img/seu-projeto-aqui.webp";
+
 // Icones do header menu mobile
 import iconMenu from "../assets/icons/menu/icon-menu.svg";
 import iconMenuClose from "../assets/icons/menu/icon-menu-close.svg";
@@ -134,31 +138,27 @@ export const projetos = {
   cards: [
     {
       id: 1,
-      imagem: `NADA AINDA`,
-      titulo: `Projeto 1`,
-      tags: ["Delivery", "Comida", "Restaurante"],
-      botao: { texto: `Ver projeto ->`, link: `AQUI VAI O LINK DO PROJETO!` },
+      imagem: imgKubicoStore,
+      titulo: `Kúbico Store`,
+      tags: ["E-commerce", "SEO", "Responsivo"],
+      botao: {
+        texto: `Ver projeto ->`,
+        link: `https://kubicostore.vercel.app/`,
+        icone: iconWhatsappBtn,
+        classe: "iconBtn",
+      },
     },
     {
       id: 2,
-      imagem: `NADA AINDA`,
-      titulo: `Projeto 2`,
-      tags: ["Delivery", "Comida", "Restaurante"],
-      botao: { texto: `Ver projeto ->`, link: `AQUI VAI O LINK DO PROJETO!` },
-    },
-    {
-      id: 3,
-      imagem: `NADA AINDA`,
-      titulo: `Projeto 3`,
-      tags: ["Delivery", "Comida", "Restaurante"],
-      botao: { texto: `Ver projeto ->`, link: `AQUI VAI O LINK DO PROJETO!` },
-    },
-    {
-      id: 4,
-      imagem: `NADA AINDA`,
-      titulo: `Projeto 4`,
-      tags: ["Delivery", "Comida", "Restaurante"],
-      botao: { texto: `Ver projeto ->`, link: `AQUI VAI O LINK DO PROJETO!` },
+      imagem: imgPropaganda,
+      titulo: `Seu Projeto Aqui!`,
+      tags: ["Advogado", "Dentista", "Restaurante"],
+      botao: {
+        texto: `Ver projeto ->`,
+        link: `https://wa.me/5532987052409?text=Opa%20Wellington!%20Vi%20seu%20site%20e%20quero%20levar%20meu%20neg%C3%B3cio%20para%20o%20pr%C3%B3ximo%20n%C3%ADvel.%20Podemos%20conversar%3F%20%F0%9F%9A%80`,
+        icone: iconWhatsappBtn,
+        classe: "iconBtn",
+      },
     },
   ],
 };

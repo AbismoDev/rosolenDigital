@@ -3,10 +3,12 @@ import Botao from "../Botao/Botao";
 import Tag from "../Tag/Tag";
 
 const CardProjetos = ({ card }) => {
-  const { imagem, titulo, tags, botao } = card;
+  const { imagem, titulo, tags, botao, icone, classe } = card;
   return (
     <div className={style.containerCard}>
-      <div className={style.containerCardImagem}>Ainda não temos imagem</div>
+      <div className={style.containerCardImagem}>
+        <img src={imagem} />
+      </div>
       <div className={style.cardDescricao}>
         <h3>{titulo}</h3>
         <div className={style.containerTags}>
@@ -14,7 +16,7 @@ const CardProjetos = ({ card }) => {
             <Tag key={index} tag={tag} />
           ))}
         </div>
-        <Botao texto={botao.texto} link={botao.link} />
+        <Botao texto={botao.texto} link={botao.link} temIcone={false} />
       </div>
     </div>
   );

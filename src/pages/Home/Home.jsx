@@ -12,7 +12,7 @@ const Home = () => {
       <Cabecalho />
       <SecaoHero />
       <SecaoSolucoes />
-      {/* <SecaoProjetos /> */}
+      <SecaoProjetos />
       <SecaoSobre />
       <Rodape />
     </>
