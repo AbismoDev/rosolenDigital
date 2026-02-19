@@ -209,5 +209,5 @@ export const rodape = {
       link: `https://wa.me/5532987052409?text=Opa%20Wellington!%20Vi%20seu%20site%20e%20quero%20levar%20meu%20neg%C3%B3cio%20para%20o%20pr%C3%B3ximo%20n%C3%ADvel.%20Podemos%20conversar%3F%20%F0%9F%9A%80`,
     },
   ],
-  creditos: `© 2025 Rosolen Digital. Todos os direitos reservados.`,
+  creditos: `© 2026 Rosolen Digital. Todos os direitos reservados.`,
 };
